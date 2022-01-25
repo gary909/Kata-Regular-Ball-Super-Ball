@@ -1,0 +1,9 @@
+var Ball = function(ballType) {
+    if (!ballType){
+		this.ballType = 'regular';
+	}
+	else {
+		this.ballType= 'super';
+	}
+};
+
